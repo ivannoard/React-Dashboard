@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins;
+}
+
+.menu.active {
+  @apply bg-gray-400 text-white font-semibold;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold;
+} */
+
+h6 {
+  @apply text-sm;
+}
+
+h5 {
+  @apply text-lg;
+}
+
+h5.dashboard {
+  @apply text-sm;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+thead > tr > th,
+tbody > tr > td {
+  @apply border p-2;
+}
